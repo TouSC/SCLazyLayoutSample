@@ -14,3 +14,7 @@
 
 <h3>这样在沙盒模式（SCLazyEviromentSandbox）下，就可以在APP内通过长按View来激活布局模式。<br><br>
 如果切换到生产模式（SCLazyEviromentLive），只需要将Document路径下的SCLazyLayoutFile文件夹拖入到项目中（注意勾选Create folder references）<h3>
+
+
+![image](https://github.com/TouSC/SCLazyLayoutSample/blob/master/screenShot1.gif)
+![image](https://github.com/TouSC/SCLazyLayoutSample/blob/master/screenShot2.gif)
