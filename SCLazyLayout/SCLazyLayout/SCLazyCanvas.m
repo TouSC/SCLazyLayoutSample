@@ -120,7 +120,7 @@
     _complete(YES);
     self.hidden = YES;
     NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
-    NSString *dirPath = [documentPath stringByAppendingPathComponent:[NSString stringWithFormat:@"SCLazyLayout/%@/",_viewControllerTitle]];
+    NSString *dirPath = [documentPath stringByAppendingPathComponent:[NSString stringWithFormat:@"SCLazyLayoutFile/%@/",_viewControllerTitle]];
     NSString *savePath = [dirPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.json",_viewTitle]];
     [[NSFileManager defaultManager] createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:nil];
     [[NSFileManager defaultManager] createFileAtPath:savePath contents:nil attributes:nil];

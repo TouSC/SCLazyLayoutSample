@@ -34,7 +34,7 @@
     if (enviroment==SCLazyEviromentSandbox)
     {
         NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
-        NSString *dirPath = [documentPath stringByAppendingPathComponent:@"SCLazyLayout/"];
+        NSString *dirPath = [documentPath stringByAppendingPathComponent:@"SCLazyLayoutFile/"];
         NSArray *dirs = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:dirPath error:&error];
         NSMutableDictionary *viewLayoutInfo = [NSMutableDictionary dictionary];
         for (NSString *viewControllerTitle in dirs)
