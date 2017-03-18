@@ -14,6 +14,8 @@
 		9155F7EB1E7C3D1800BC2EDC /* SCLazyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155F7E21E7C3D1800BC2EDC /* SCLazyLayout.m */; };
 		9155F7EC1E7C3D1800BC2EDC /* SCLazyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155F7E41E7C3D1800BC2EDC /* SCLazyView.m */; };
 		9155F7ED1E7C3D1800BC2EDC /* UIView+RectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155F7E61E7C3D1800BC2EDC /* UIView+RectHelper.m */; };
+		9155F7F01E7CD9E600BC2EDC /* screenShot1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9155F7EE1E7CD9E600BC2EDC /* screenShot1.gif */; };
+		9155F7F11E7CD9E600BC2EDC /* screenShot2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9155F7EF1E7CD9E600BC2EDC /* screenShot2.gif */; };
 		916521A01E69B8E9009F7051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9165219F1E69B8E9009F7051 /* main.m */; };
 		916521A31E69B8E9009F7051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916521A21E69B8E9009F7051 /* AppDelegate.m */; };
 		916521A61E69B8E9009F7051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916521A51E69B8E9009F7051 /* ViewController.m */; };
@@ -68,6 +70,8 @@
 		9155F7E41E7C3D1800BC2EDC /* SCLazyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLazyView.m; sourceTree = "<group>"; };
 		9155F7E51E7C3D1800BC2EDC /* UIView+RectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RectHelper.h"; sourceTree = "<group>"; };
 		9155F7E61E7C3D1800BC2EDC /* UIView+RectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RectHelper.m"; sourceTree = "<group>"; };
+		9155F7EE1E7CD9E600BC2EDC /* screenShot1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenShot1.gif; sourceTree = "<group>"; };
+		9155F7EF1E7CD9E600BC2EDC /* screenShot2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenShot2.gif; sourceTree = "<group>"; };
 		9165219B1E69B8E9009F7051 /* SCLazyLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCLazyLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9165219F1E69B8E9009F7051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		916521A11E69B8E9009F7051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 		916521921E69B8E9009F7051 = {
 			isa = PBXGroup;
 			children = (
+				9155F7EE1E7CD9E600BC2EDC /* screenShot1.gif */,
+				9155F7EF1E7CD9E600BC2EDC /* screenShot2.gif */,
 				916521E61E69B979009F7051 /* Masonry */,
 				9155F7D91E7C3D1800BC2EDC /* SCLazyLayout */,
 				9165219D1E69B8E9009F7051 /* SCLazyLayoutSample */,
@@ -374,7 +380,9 @@
 				916522251E69B9D6009F7051 /* TestView.xib in Resources */,
 				916521AE1E69B8E9009F7051 /* LaunchScreen.storyboard in Resources */,
 				916521AB1E69B8E9009F7051 /* Assets.xcassets in Resources */,
+				9155F7F11E7CD9E600BC2EDC /* screenShot2.gif in Resources */,
 				916521A91E69B8E9009F7051 /* Main.storyboard in Resources */,
+				9155F7F01E7CD9E600BC2EDC /* screenShot1.gif in Resources */,
 				916522011E69B97A009F7051 /* Info.plist in Resources */,
 				9155F7EA1E7C3D1800BC2EDC /* SCLazyCanvas.xib in Resources */,
 			);
